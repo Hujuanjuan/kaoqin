@@ -1,0 +1,12 @@
+# 学工考核
+Mode: "debug"
+#Mode: "release"
+Port: ":7002"
+CacheSecond: 120
+
+AllowOrigins: ["http://localhost:63342"]
+
+Mysql: "assess:assess@tcp(47.105.187.57:3306)/assess?charset=utf8"
+
+
+
